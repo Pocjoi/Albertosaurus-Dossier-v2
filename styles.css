@@ -1,0 +1,18 @@
+.flex-container{
+    display:flex;
+    justify-content:center;
+    flex-flow: row wrap;
+}
+h1{
+  font-size: 30px;
+  display:flex;
+  justify-content:center;
+  color: white;
+  background-color: black;
+}
+img{
+  border-radius: 25px;
+}
+.flex-container > article{
+  display:flex;
+}

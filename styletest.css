@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Zen+Antique+Soft&display=swap');
+
+* { 
+    box-sizing: border-box;
+}
+body {
+    background: whitesmoke;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
 img {
     max-width: 100%;
     border-radius: 1rem 0 1rem;
@@ -5,6 +17,46 @@ img {
     border: solid 1px darkgrey;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    margin-top:0;
+    margin-bottom: 0.5em;
+}
+
+header {
+    position: sticky;
+    top:0;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.33);
+    z-index: 999;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul li a {
+    font-size: 24px;
+    padding: 1em;
+    background: black;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color ease 200ms, background ease 200ms ;
+
+}
 
 header nav ul li a.active {
     color: dodgerblue;
@@ -30,7 +82,16 @@ header nav ul li a:hover {
     color: yellow;
 }
 
-
+#hero {
+    height: 80vh;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-image: url("https://via.placeholder.com/1920x800");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 body:not(#home) #hero {
     height: 30vh;
@@ -40,7 +101,9 @@ body:not(#home) #hero h1 {
     font-size: 3rem;
 }
 
-
+#home #hero {
+      background-image: url(../img/hero-home.png);
+}
 
 #about #hero {
     background-image: url(../img/552997.jpg);
@@ -168,12 +231,12 @@ footer input[type="button"]:hover {
     box-shadow: 0 3px 5px rgba(0,0,0,0.33);
     border: solid 1px darkgrey;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 1rem 0 1rem;
 }
 
 .cards article img,
 .card img {
-    border-radius: 25px;
+    border-radius: 1rem 0 0 0;
     border: none;
 }
 

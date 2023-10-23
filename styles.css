@@ -1,51 +1,83 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-h1{
-  font-size: 30px;
-  display:flex;
-  justify-content:center;
-  color: white;
-  background-color: black;
-}
-.flex-container > article{
-  display:flex;
-}
-.flex-container > p{
-  display:flex;
-  flex-wrap: wrap;
-}
-img {
-  max-width: 100%;
-  border-radius: 25px;
-  padding: 0.5rem;
-  border: solid 1px darkgrey;
+  background-color: rgb(0, 0, 0);
 }
 
-article > div{
-  display:flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  justify-content:center;
-  align-items:center;
+h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
-article > .minecraft{
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+.flex-container>article {
+  display: flex;
+}
+
+.flex-container>p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  border: solid 2px rgb(0, 0, 0);
+}
+
+.imgonnacry {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 3px solid green;
+  background-color: rgb(0, 0, 0);
+}
+
+.imgonnacry>p {
+  color: rgb(0, 255, 0);
+
+}
+
+article>div {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+article>.minecraft {
   width: 43%;
 }
-article > .hero{
+
+article>.hero {
   width: 50%;
 }
-article > .minecraft2{
+
+article>.minecraft2 {
   width: 50%;
 }
-article > .hero2{
-  display:flex;
+
+article>.hero2 {
+  display: flex;
   margin: 6%;
   width: 45%;
 }
-article p{
+
+article p {
   padding: 30px;
-  border: 2px solid black;
+  border: 2px solid green;
+  color: rgb(0, 255, 0);
 }

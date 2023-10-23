@@ -92,9 +92,34 @@ footer {
 }
 
 .easteregg a {
-  color: black
+  color: rgb(53, 0, 0);
+  text-decoration: none;
 }
 
 .easteregg:visited {
   color: black;
+}
+
+.runaway a {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: red;
+  text-decoration: none;
+}
+
+.runaway:visited {
+  color: red;
+}
+
+.realrun a {
+  color: red;
+  text-decoration: none;
+}
+
+.realrun {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

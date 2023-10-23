@@ -86,6 +86,7 @@ footer {
   border: 2px;
   border-color: yellow;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   color: yellow
 }

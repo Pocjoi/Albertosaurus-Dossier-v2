@@ -90,3 +90,11 @@ footer {
   justify-content: flex-start;
   color: yellow
 }
+
+.easteregg a {
+  color: black
+}
+
+.easteregg:visited {
+  color: black;
+}
